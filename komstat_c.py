@@ -51,7 +51,7 @@ mahasiswa_data = {
     "5003241186": "Indah Firdausia"
 }
 
-st.title("🎉KOMSTATULATION! (tinggal EAS)🎉")
+st.header("🎉KOMSTATULATION! (tinggal EAS)🎉")
 st.write("Masukin NRP kalian di sini biar dapet A")
 
 nrp = st.text_input("Masukkan NRP:")
