@@ -51,10 +51,6 @@ mahasiswa_data = {
     "5003241186": "Indah Firdausia"
 }
 
-
-import ipywidgets as widgets
-from IPython.display import display, Markdown
-
 st.title("🎉 KOMSTATULATION! (tinggal EAS) 🎉")
 st.write("Masukin NRP kalian di sini biar dapet A")
 
