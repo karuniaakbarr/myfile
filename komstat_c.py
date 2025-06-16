@@ -1,8 +1,4 @@
 import streamlit as st
-from streamlit_jupyter import StreamlitPatcher
-
-StreamlitPatcher().jupyter()  # Agar Streamlit bisa jalan di notebook
-
 
 # Data NRP dan Nama Mahasiswa
 mahasiswa_data = {
