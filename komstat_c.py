@@ -60,7 +60,7 @@ if nrp:
     if nrp in mahasiswa_data:
         nama = mahasiswa_data[nrp]
         st.balloons()
-        st.success(f"Dear, {nama}! 🎓\n\nSelamat! Kamu sudah menjalani praktikum komputasi statistika dan semester ini dengan sangat baik. Semangat terus belajar dan jangan lupa bahagia! 🤗\n\nSalam hangat,\n Kaka dan Nicole")
+        st.success(f"Dear, {nama}! 🎓\n\nSelamat! Kamu sudah menjalani praktikum komputasi statistika dan semester ini dengan sangat baik. Semangat terus belajar dan jangan lupa bahagia! 🤗\n\nSalam hangat,\n Kaka dan Nicole hehe")
     else:
         st.error("Kamu bukan Komstat C yah💔")
 
