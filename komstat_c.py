@@ -51,7 +51,7 @@ mahasiswa_data = {
     "5003241186": "Indah Firdausia"
 }
 
-st.header("🎉KOMSTATULATION! (tinggal EAS)🎉")
+st.write("Halo, temen-temen Komstat C!")
 st.write("Masukin NRP kalian di sini biar dapet A")
 
 nrp = st.text_input("Masukkan NRP:")
@@ -60,7 +60,7 @@ if nrp:
     if nrp in mahasiswa_data:
         nama = mahasiswa_data[nrp]
         st.balloons()
-        st.success(f"Halo, {nama}! 🎓\n\nSelamat! Kamu sudah menjalani praktikum komputasi statistika dan semester ini dengan sangat baik. Semangat terus belajar dan jangan lupa bahagia! 🤗")
+        st.success(f"Dear, {nama}! 🎓\n\nSelamat! Kamu sudah menjalani praktikum komputasi statistika dan semester ini dengan sangat baik. Semangat terus belajar dan jangan lupa bahagia! 🤗\n\nSalam hangat,\nKaka dan Nicole")
     else:
         st.error("Kamu bukan Komstat C yah💔")
 
